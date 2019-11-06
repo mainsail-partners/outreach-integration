@@ -189,11 +189,11 @@
         <fullName>Note__c</fullName>
         <label>Note</label>
         <description>Call notes</description>
+        <length>32768</length>
         <type>LongTextArea</type>
         <externalId>false</externalId>
         <trackHistory>false</trackHistory>
         <required>false</required>
-        <length>32768</length>
         <visibleLines>3</visibleLines>
     </fields>
     <fields>
@@ -492,11 +492,6 @@
                     <fullName>Completed</fullName>
                     <default>false</default>
                     <label>Completed</label>
-                </value>
-                <value>
-                    <fullName>Cancelled</fullName>
-                    <default>false</default>
-                    <label>Cancelled</label>
                 </value>
                 <value>
                     <fullName>Cancelled</fullName>
