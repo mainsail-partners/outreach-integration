@@ -187,13 +187,13 @@
     </fields>
     <fields>
         <fullName>Note__c</fullName>
-        <label>Note</label>
-        <description>Call notes</description>
-        <length>32768</length>
-        <type>LongTextArea</type>
         <externalId>false</externalId>
+        <inlineHelpText>Call notes</inlineHelpText>
+        <label>Call notes</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
-        <required>false</required>
+        <type>LongTextArea</type>
         <visibleLines>3</visibleLines>
     </fields>
     <fields>
