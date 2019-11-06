@@ -17,7 +17,7 @@
         <type>Lookup</type>
         <required>false</required>
         <referenceTo>User</referenceTo>
-        <relationshipName>SequenceUser</relationshipName>
+        <relationshipName>SequenceLeadUser</relationshipName>
         <trackHistory>false</trackHistory>
         <externalId>false</externalId>
     </fields>
@@ -50,6 +50,7 @@
         <label>Current Sequence Name</label>
         <description>The name of the current Outreach sequence</description>
         <type>Text</type>
+        <length>255</length>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <externalId>false</externalId>
@@ -59,6 +60,7 @@
         <label>Current Sequence Status</label>
         <description>The status of the current Outreach sequence</description>
         <type>Text</type>
+        <length>255</length>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <externalId>false</externalId>
@@ -67,7 +69,7 @@
         <fullName>CurrentSequenceStepType__c</fullName>
         <description>The step type of the current Outreach sequence</description>
         <externalId>false</externalId>
-        <label>The step type of the current Outreach sequence</label>
+        <label>Current Sequence Step Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>

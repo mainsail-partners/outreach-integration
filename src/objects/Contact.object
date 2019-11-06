@@ -17,7 +17,7 @@
         <type>Lookup</type>
         <required>false</required>
         <referenceTo>User</referenceTo>
-        <relationshipName>SequenceUser</relationshipName>
+        <relationshipName>SequenceContactUser</relationshipName>
         <trackHistory>false</trackHistory>
         <externalId>false</externalId>
     </fields>
@@ -50,6 +50,7 @@
         <label>Current Sequence Name</label>
         <description>The name of the current Outreach sequence</description>
         <type>Text</type>
+        <length>255</length>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <externalId>false</externalId>
@@ -59,6 +60,7 @@
         <label>Current Sequence Status</label>
         <description>The status of the current Outreach sequence</description>
         <type>Text</type>
+        <length>255</length>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <externalId>false</externalId>

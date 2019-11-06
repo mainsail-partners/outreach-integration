@@ -440,7 +440,7 @@
         <fullName>RecordingURL__c</fullName>
         <label>Recording URL</label>
         <description>Twilio Recording url</description>
-        <type>URL</type>
+        <type>Url</type>
         <externalId>false</externalId>
         <trackHistory>false</trackHistory>
         <required>false</required>
