@@ -163,11 +163,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <readable>true</readable>
-        <field>Activity.Note__c</field>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <readable>true</readable>
         <field>Activity.User__c</field>
     </fieldPermissions>
     <fieldPermissions>

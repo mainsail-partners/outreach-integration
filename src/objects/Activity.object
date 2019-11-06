@@ -186,17 +186,6 @@
         <required>false</required>
     </fields>
     <fields>
-        <fullName>Note__c</fullName>
-        <externalId>false</externalId>
-        <inlineHelpText>Call notes</inlineHelpText>
-        <label>Call notes</label>
-        <length>32768</length>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>LongTextArea</type>
-        <visibleLines>3</visibleLines>
-    </fields>
-    <fields>
         <fullName>User__c</fullName>
         <label>User</label>
         <description>Map to a specific SFDC user</description>
