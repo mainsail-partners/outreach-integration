@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullname>ActivelyBeingSequenced__c</fullname>
+        <label>Actively Being Sequenced</label>
+        <description>Is the lead currently in an Outreach sequence?</description>
+        <type>Checkbox</type>
+        <required>false</required>
+        <defaultValue>false</defaultValue>
+        <trackHistory>false</trackHistory>
+        <externalId>false</externalId>
+    </fields>
+    <fields>
+        <fullname>CurrentSequenceUserSFDCID__c</fullname>
+        <label>Current Sequence User SFDC ID</label>
+        <description>The user sfdc id of the current Outreach sequence</description>
+        <type>Lookup</type>
+        <required>false</required>
+        <referenceTo>User</referenceTo>
+        <relationshipName>SequenceUser</relationshipName>
+        <trackHistory>false</trackHistory>
+        <externalId>false</externalId>
+    </fields>
+    <fields>
+        <fullname>CurrentSequenceStepNumber__c</fullname>
+        <label>Current Sequence Step Number</label>
+        <description>The step number of the current Outreach sequence</description>
+        <type>Number</type>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <externalId>false</externalId>
+        <precision>18</precision>
+        <scale>0</scale>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullname>NumberofActiveSequences__c</fullname>
+        <label>Number of Active Sequences</label>
+        <description>The sequences of the number Outreach of</description>
+        <type>Number</type>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <externalId>false</externalId>
+        <precision>18</precision>
+        <scale>0</scale>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullname>CurrentSequenceName__c</fullname>
+        <label>Current Sequence Name</label>
+        <description>The name of the current Outreach sequence</description>
+        <type>Text</type>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <externalId>false</externalId>
+    </fields>
+    <fields>
+        <fullname>CurrentSequenceStatus__c</fullname>
+        <label>Current Sequence Status</label>
+        <description>The status of the current Outreach sequence</description>
+        <type>Text</type>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <externalId>false</externalId>
+    </fields>
+    <fields>
+        <fullName>CurrentSequenceStepType__c</fullName>
+        <description>The step type of the current Outreach sequence</description>
+        <externalId>false</externalId>
+        <label>The step type of the current Outreach sequence</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AutoEmail</fullName>
+                    <default>false</default>
+                    <label>Auto Email</label>
+                </value>
+                <value>
+                    <fullName>ManualEmail</fullName>
+                    <default>false</default>
+                    <label>Manual Email</label>
+                </value>
+                <value>
+                    <fullName>PhoneCall</fullName>
+                    <default>false</default>
+                    <label>Phone Call</label>
+                </value>
+                <value>
+                    <fullName>Generic Task</fullName>
+                    <default>false</default>
+                    <label>GenericTask</label>
+                </value>
+                <value>
+                    <fullName>LinkedIn</fullName>
+                    <default>false</default>
+                    <label>LinkedIn</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>

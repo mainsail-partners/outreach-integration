@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Isoutbound__c</fullName>
+        <label>Isoutbound</label>
+        <description>Was the dial outbound? </description>
+        <type>Checkbox</type>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>IsTranser__c</fullName>
+        <label>IsTranser</label>
+        <description>Was the call transferred? </description>
+        <type>Checkbox</type>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Shouldrecordcall__c</fullName>
+        <label>Should record call</label>
+        <description>Did the Outreach user choose to record the call prior to dialing?</description>
+        <type>Checkbox</type>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>MeetingCancelled__c</fullName>
+        <label>Meeting Cancelled</label>
+        <description>Was the meeting cancelled? </description>
+        <type>Checkbox</type>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>MeetingNo_Show__c</fullName>
+        <label>Meeting No-Show</label>
+        <description>Did the prospect no-show to the meeting?</description>
+        <type>Checkbox</type>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Answeredat__c</fullName>
+        <label>Answered at</label>
+        <description>The time when a call was picked up</description>
+        <type>DateTime</type>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Statechangedat__c</fullName>
+        <label>State changed at</label>
+        <description>The last time the state was changed</description>
+        <type>DateTime</type>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Bouncedat__c</fullName>
+        <label>Bounced at</label>
+        <description>Date and time the email was bounced</description>
+        <type>DateTime</type>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Clickedat__c</fullName>
+        <label>Clicked at</label>
+        <description>First click time</description>
+        <type>DateTime</type>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Deliveredat__c</fullName>
+        <label>Delivered at</label>
+        <description>Time the email was delivered</description>
+        <type>DateTime</type>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Followupsequencestartingdate__c</fullName>
+        <label>Follow up sequence starting date</label>
+        <description>When did step 1 of the follow up sequence start?</description>
+        <type>DateTime</type>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Followuptaskscheduledat__c</fullName>
+        <label>Follow up task scheduled at</label>
+        <description>If using a follow up task, when is it due?</description>
+        <type>DateTime</type>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Markedasspam at__c</fullName>
+        <label>Marked as spam  at</label>
+        <description>If your Internet Service Provider (ISP) detects the mailing as spam, Outreach push the time stamp that is provided by the ISP. </description>
+        <type>DateTime</type>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Openedat__c</fullName>
+        <label>Opened at</label>
+        <description>first time the email was opened</description>
+        <type>DateTime</type>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Repliedat__c</fullName>
+        <label>Replied at</label>
+        <description>When was the email replied to?</description>
+        <type>DateTime</type>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Scheduledat__c</fullName>
+        <label> Scheduled at</label>
+        <description>When was the email scheduled to deliver?</description>
+        <type>DateTime</type>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Unsubscribedat__c</fullName>
+        <label>Unsubscribed at</label>
+        <description>When did the prospect unsubscribe?</description>
+        <type>DateTime</type>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Mailboxsourceemailaddress__c</fullName>
+        <label>Mailbox source email address</label>
+        <description>Outreach user email addressed used to deliver the email</description>
+        <type>Email</type>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>CalldurationHH_MM__c</fullName>
+        <label>Call duration (HH:MM)</label>
+        <description>Hour:Minute:Seconds</description>
+        <type>Time</type>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Completedat__c</fullName>
+        <label>Completed at</label>
+        <description>The time an answered call was completed. </description>
+        <type>Time</type>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Note__c</fullName>
+        <label>Note</label>
+        <description>Call notes</description>
+        <type>LongTextArea</type>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+        <length>32768</length>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Prospect__c</fullName>
+        <label>Prospect</label>
+        <description>Lookup to the corresponding lead/contact</description>
+        <type>Lookup(Lead/Contact)</type>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>User__c</fullName>
+        <label>User</label>
+        <description>Map to a specific SFDC user</description>
+        <type>Lookup</type>
+        <referenceTo>User</referenceTo>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>CalldurationSeconds__c</fullName>
+        <label>Call duration (seconds)</label>
+        <description>Total number of seconds</description>
+        <type>Number</type>
+        <precision>18</precision>
+        <scale>0</scale>
+        <unique>false</unique>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>From__c</fullName>
+        <label>From</label>
+        <description>Number dialed from</description>
+        <type>Number</type>
+        <precision>18</precision>
+        <scale>0</scale>
+        <unique>false</unique>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>SequenceID__c</fullName>
+        <label>Sequence ID</label>
+        <description>Which sequence was the call task from?</description>
+        <type>Number</type>
+        <precision>18</precision>
+        <scale>0</scale>
+        <unique>false</unique>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>To__c</fullName>
+        <label>To</label>
+        <description>To number</description>
+        <type>Number</type>
+        <precision>18</precision>
+        <scale>0</scale>
+        <unique>false</unique>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Sequencestepnumber__c</fullName>
+        <label>Sequence step number</label>
+        <description>Which step was the call task</description>
+        <type>Number</type>
+        <precision>18</precision>
+        <scale>0</scale>
+        <unique>false</unique>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>ClickCount__c</fullName>
+        <label>Click Count</label>
+        <description>Total number of clicks</description>
+        <type>Number</type>
+        <precision>18</precision>
+        <scale>0</scale>
+        <unique>false</unique>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>FollowupsequenceID__c</fullName>
+        <label>Follow up sequence ID</label>
+        <description>ID of the follow up sequence, if used</description>
+        <type>Number</type>
+        <precision>18</precision>
+        <scale>0</scale>
+        <unique>false</unique>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Opencount__c</fullName>
+        <label>Open count</label>
+        <description>Total opens</description>
+        <type>Number</type>
+        <precision>18</precision>
+        <scale>0</scale>
+        <unique>false</unique>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Sequencestepnumber__c</fullName>
+        <label>Sequence step number</label>
+        <description>What was the sequence step?</description>
+        <type>Number</type>
+        <precision>18</precision>
+        <scale>0</scale>
+        <unique>false</unique>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>TemplateID__c</fullName>
+        <label>Template ID</label>
+        <description>If the mailing was sent with a template, which template ID was used?</description>
+        <type>Number</type>
+        <precision>18</precision>
+        <scale>0</scale>
+        <unique>false</unique>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>AttributableSequenceID__c</fullName>
+        <label>Attributable Sequence ID</label>
+        <description>Outreach will attribute a task to the most recently finished sequence if the task isn't associated with an active sequence</description>
+        <type>Text</type>
+        <length>255</length>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Callpurpose__c</fullName>
+        <label>Call purpose</label>
+        <description>Call purpose set by Outreach admin</description>
+        <type>Text</type>
+        <length>255</length>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Calldisposition__c</fullName>
+        <label>Call disposition</label>
+        <description>Disposition name created by Outreach admin</description>
+        <type>Text</type>
+        <length>255</length>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Sequencename__c</fullName>
+        <label>Sequence name</label>
+        <description>Which sequence was the call task from?</description>
+        <type>Text</type>
+        <length>255</length>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Usercalltype__c</fullName>
+        <label>User call type</label>
+        <description>VOIP or Bridge</description>
+        <type>Text</type>
+        <length>255</length>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Followupsequencename__c</fullName>
+        <label>Follow up sequence name</label>
+        <description>Follow up sequence name, if used</description>
+        <type>Text</type>
+        <length>255</length>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Followuptasktype__c</fullName>
+        <label>Follow up task type</label>
+        <description>What type of follow-up task is being used? (no reply or create a follow up task regardless)</description>
+        <type>Text</type>
+        <length>255</length>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Prospect__c</fullName>
+        <label>Prospect</label>
+        <description>The name of the prospect</description>
+        <type>Text</type>
+        <length>255</length>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Templatename__c</fullName>
+        <label>Template name</label>
+        <description>The the email was sent with a template, what's the name of the template that was used?</description>
+        <type>Text</type>
+        <length>255</length>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>MeetingSource__c</fullName>
+        <label>Meeting Source</label>
+        <description>What was the source of the meeting? </description>
+        <type>Text</type>
+        <length>255</length>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>MeetingType__c</fullName>
+        <label>Meeting Type</label>
+        <description>What was the type of the meeting?</description>
+        <type>Text</type>
+        <length>255</length>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>RecordingURL__c</fullName>
+        <label>Recording URL</label>
+        <description>Twilio Recording url</description>
+        <type>URL</type>
+        <externalId>false</externalId>
+        <trackHistory>false</trackHistory>
+        <required>false</required>
+    </fields>
+     <fields>
+        <fullName>Calldirection__c</fullName>
+        <description>Inbound or Outbound</description>
+        <externalId>false</externalId>
+        <label>Call direction</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Outbound</fullName>
+                    <default>false</default>
+                    <label>Outbound</label>
+                </value>
+                <value>
+                    <fullName>Inbound</fullName>
+                    <default>false</default>
+                    <label>Inbound</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Calldirection__c</fullName>
+        <description>Inbound or Outbound</description>
+        <externalId>false</externalId>
+        <label>Call direction</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Ringing</fullName>
+                    <default>false</default>
+                    <label>Ringing</label>
+                </value>
+                <value>
+                    <fullName>No Answer</fullName>
+                    <default>false</default>
+                    <label>No_Answer</label>
+                </value>
+                <value>
+                    <fullName>Failed</fullName>
+                    <default>false</default>
+                    <label>Failed</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Busy</fullName>
+                    <default>false</default>
+                    <label>Busy</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CallHour__c</fullName>
+        <description>The hour the call took place</description>
+        <externalId>false</externalId>
+        <formula>HOUR(Completedat__c)</formula>
+        <label>Call Hour</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>
