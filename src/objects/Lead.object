@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <fullname>ActivelyBeingSequenced__c</fullname>
+        <fullName>ActivelyBeingSequenced__c</fullName>
         <label>Actively Being Sequenced</label>
         <description>Is the lead currently in an Outreach sequence?</description>
         <type>Checkbox</type>
@@ -11,7 +11,7 @@
         <externalId>false</externalId>
     </fields>
     <fields>
-        <fullname>CurrentSequenceUserSFDCID__c</fullname>
+        <fullName>CurrentSequenceUserSFDCID__c</fullName>
         <label>Current Sequence User SFDC ID</label>
         <description>The user sfdc id of the current Outreach sequence</description>
         <type>Lookup</type>
@@ -22,7 +22,7 @@
         <externalId>false</externalId>
     </fields>
     <fields>
-        <fullname>CurrentSequenceStepNumber__c</fullname>
+        <fullName>CurrentSequenceStepNumber__c</fullName>
         <label>Current Sequence Step Number</label>
         <description>The step number of the current Outreach sequence</description>
         <type>Number</type>
@@ -34,7 +34,7 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullname>NumberofActiveSequences__c</fullname>
+        <fullName>NumberofActiveSequences__c</fullName>
         <label>Number of Active Sequences</label>
         <description>The sequences of the number Outreach of</description>
         <type>Number</type>
@@ -46,7 +46,7 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullname>CurrentSequenceName__c</fullname>
+        <fullName>CurrentSequenceName__c</fullName>
         <label>Current Sequence Name</label>
         <description>The name of the current Outreach sequence</description>
         <type>Text</type>
@@ -55,7 +55,7 @@
         <externalId>false</externalId>
     </fields>
     <fields>
-        <fullname>CurrentSequenceStatus__c</fullname>
+        <fullName>CurrentSequenceStatus__c</fullName>
         <label>Current Sequence Status</label>
         <description>The status of the current Outreach sequence</description>
         <type>Text</type>

@@ -197,15 +197,6 @@
         <visibleLines>3</visibleLines>
     </fields>
     <fields>
-        <fullName>Prospect__c</fullName>
-        <label>Prospect</label>
-        <description>Lookup to the corresponding lead/contact</description>
-        <type>Lookup(Lead/Contact)</type>
-        <externalId>false</externalId>
-        <trackHistory>false</trackHistory>
-        <required>false</required>
-    </fields>
-    <fields>
         <fullName>User__c</fullName>
         <label>User</label>
         <description>Map to a specific SFDC user</description>

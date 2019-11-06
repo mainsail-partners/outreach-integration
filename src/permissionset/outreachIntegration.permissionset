@@ -261,11 +261,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <readable>true</readable>
-        <field>Activity.Prospect__c</field>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <readable>true</readable>
         <field>Activity.Templatename__c</field>
     </fieldPermissions>
     <fieldPermissions>
