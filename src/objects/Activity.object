@@ -304,18 +304,6 @@
         <required>false</required>
     </fields>
     <fields>
-        <fullName>Sequencestepnumber__c</fullName>
-        <label>Sequence step number</label>
-        <description>What was the sequence step?</description>
-        <type>Number</type>
-        <precision>18</precision>
-        <scale>0</scale>
-        <unique>false</unique>
-        <externalId>false</externalId>
-        <trackHistory>false</trackHistory>
-        <required>false</required>
-    </fields>
-    <fields>
         <fullName>TemplateID__c</fullName>
         <label>Template ID</label>
         <description>If the mailing was sent with a template, which template ID was used?</description>
@@ -473,7 +461,7 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>State</fullName>
+        <fullName>State__c</fullName>
         <description>State of a call, possible values are: ringing, no answer, failed, completed, cancelled, busy</description>
         <externalId>false</externalId>
         <label>State</label>

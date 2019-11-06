@@ -123,7 +123,7 @@
     <fieldPermissions>
         <editable>true</editable>
         <readable>true</readable>
-        <field>Activity.Markedasspam at__c</field>
+        <field>Activity.Markedasspamat__c</field>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
