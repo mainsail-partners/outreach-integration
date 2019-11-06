@@ -213,11 +213,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <readable>true</readable>
-        <field>Activity.Sequencestepnumber__c</field>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <readable>true</readable>
         <field>Activity.TemplateID__c</field>
     </fieldPermissions>
     <fieldPermissions>

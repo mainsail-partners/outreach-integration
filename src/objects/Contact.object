@@ -69,7 +69,7 @@
         <fullName>CurrentSequenceStepType__c</fullName>
         <description>The step type of the current Outreach sequence</description>
         <externalId>false</externalId>
-        <label>The step type of the current Outreach sequence</label>
+        <label>Current Sequnce Step Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
