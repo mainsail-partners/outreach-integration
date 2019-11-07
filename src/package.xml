@@ -4,8 +4,8 @@
     <members>*</members>
     <name>CustomField</name>
   </types>
-  <types>
-    <members>*</members>
+<types>
+    <members>outreachIntegration</members>
     <name>PermissionSet</name>
   </types>
   <types>
