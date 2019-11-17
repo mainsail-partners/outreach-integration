@@ -5,7 +5,7 @@
     <name>CustomField</name>
   </types>
 <types>
-    <members>outreachIntegration</members>
+    <members>*</members>
     <name>PermissionSet</name>
   </types>
   <types>
